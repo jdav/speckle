@@ -6,7 +6,7 @@ public class Executive {
 		if (args.length != 1) {
 			throw new SpeckleException(
 					"ERROR: Command-line syntax should be java "
-							+ "com.davenport.speckle.Executive configfile");
+							+ "com.malleamus.speckle.Executive configfile");
 		}
 		
 		Executive executive = new Executive(args[0]);
